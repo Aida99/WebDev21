@@ -1,0 +1,256 @@
+<doctype html>
+<html>
+<head>
+	<title>Facebook</title>
+	<meta charset="utf-8">
+        <style>
+        	body{
+        		margin: 0px 0px 0px 0px;
+        		font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+        	}
+        	#head{
+        		background-color: #f0f2f5;
+        		margin: 0px 0px 0px 0px;
+        		height: 720px;
+        	}
+        	
+        	#main{
+        		position: relative;
+				left: 450px;
+				top: 180px;
+				width: 500px;
+        	}
+        	#logo{
+        		position: relative;
+        		left: -30px;
+
+        	}
+            #catchphrase{
+            	margin: 0px 0px 0px -25px;
+            	height: 64px;
+            	width: 500px;
+            	font-size: 26px;
+				font-weight: normal;
+    			line-height: 32px;
+    			position: relative;
+    			top: -8px;
+            }
+            #input{
+				font-size: 17px;
+				padding-top: 14px;
+  				padding-right: 16px;
+				padding-bottom: 14px;
+				padding-left: 16px;
+				height: 22px;
+				width: 330px;
+				border-width: 1px;
+				border-radius: 5px;
+
+            }
+            #subm_button{
+            	font-size: 20px;
+            	height: 48px;
+            	width: 364px;
+            	border-radius: 5px;
+            	border: none;
+            	background-color: #1877f2;
+            	color: white;
+            	font-weight: bold;
+            	margin-bottom: 16px;
+            	cursor: pointer;
+            }            
+            #register_box{
+            	text-align: center;
+            	background-color: #fff;
+            	border: none;
+            	border-radius: 12px;
+            	height: 350px;
+            	width: 396px;
+            	position: relative;
+            	left: 1042px;
+            	top: -40px;
+            	box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 
+            				0 8px 16px rgb(0 0 0 / 10%);
+    			box-sizing: border-box;
+    			margin-left: 0px;
+            }
+            #forgot_password{
+				font-family: inherit;
+            	color: #1877f2;
+    			font-size: 14px;
+    			font-weight: 500;
+            }
+            #line1{
+            	text-align: center;
+				margin: 20px 16px;
+            	height: 0px;
+            	width: 364px;
+            	border-bottom: 1px solid #dadde1;
+            }
+            #create_new_button{
+            	font-family: inherit;
+            	font-size: 17px;
+            	color: white;
+            	font-weight: bold;
+            	background-color: #41c427;
+            	border-color: #41c427;
+            	border-radius: 5px;
+            	width: 196.688px;
+            	height: 48px;
+            	display: inline-block;
+            	border: none;
+            	cursor: pointer;
+            	margin-bottom: 50px
+            }
+            #foot{
+        		margin: 0px 0px 0px -30px;
+        		height: 182px;
+				color: #737373;
+				text-decoration:none;
+				font-size: 12px;
+        	}
+        	#link{
+        		text-decoration:none;
+        		cursor: pointer;
+        		color: #8a8d91;
+        		margin-top: 5px;
+            }
+            #languages{
+            	width: 980px;
+            	margin-left: 470px;
+            	margin-top: 30px;
+            }
+            #more{
+            	text-decoration:none;
+            	margin-left: 10px;
+            	font-size: 18px;
+            	background-color: #f0f2f5;
+            	border-color: #dedfe0;
+            	border-width: 1px;
+				border-radius: 2px;
+            }
+            #line2{
+				margin: 10px 0px;
+            	height: 0px;
+            	width: 955px;
+            	border-bottom: 1px solid #dadde1;
+            }
+            #rights{
+            	font-family: inherit;
+            	font-size: 11px;
+				color: #737373;
+            }
+            
+            
+        </style>
+</head>
+
+<body>
+	<div id="head">
+    		<div id="main">
+			    <embed src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Facebook_Logo_%282019%29.svg/1001px-Facebook_Logo_%282019%29.svg.png" 
+                id="logo" height="55" width="280">
+			    	<br>
+			    	<br>
+			    	<br>
+			    <p id="catchphrase">
+			        Facebook помогает вам всегда оставаться на связи и общаться со своими знакомыми.
+			    </p>
+			</div>
+			<form id="register_box">
+				<br>
+				<input type="email" id="input" name="email" placeholder="Электронный адрес или номер телефона">
+				<br>
+				<br>
+				<input type="password" id="input" name="pwd" placeholder="Пароль">
+				<br>
+				<br>
+				<input type="submit" id="subm_button" value="Вход">
+
+				<a href="" id="forgot_password" style="text-decoration:none;">
+					Забыли пароль?
+				</a>
+
+				<div id="line1"></div>
+
+				<button type="button" id="create_new_button">Создать аккаунт</button>
+				<br>
+
+				<div id="custom_page" style="font-size:14px;">
+
+					<br>
+					<br>
+					<a href="" style="color:black;text-decoration:none;">
+						<b>Создать страницу</b>
+					</a>
+					знаменитости, музыкальной группы или компании.
+				</div>
+			</form>
+		</div>
+
+
+
+		<div id="foot">
+			<div id="languages">
+				<a href="" id="link" >Русский</a>
+				<a href="" id="link" style="margin-left: 10px">English(US)</a>
+				<a href="" id="link" style="margin-left: 10px">Türkçe</a>
+				<a href="" id="link" style="margin-left: 10px">Bahasa Indonesia</a>
+				<a href="" id="link" style="margin-left: 10px">Қазақша</a>
+				<a href="" id="link" style="margin-left: 10px">中文(简体)</a>
+				<a href="" id="link" style="margin-left: 10px">Deutsch</a>
+				<a href="" id="link" style="margin-left: 10px">한국어</a>
+				<a href="" id="link" style="margin-left: 10px">Shqip</a>
+				<a href="" id="link" style="margin-left: 10px">Español</a>
+				<a href="" id="link" style="margin-left: 10px">Português (Brasil)</a>
+				<button type="button" id="more">+</button>
+				<div id="line2"></div>
+				
+				<a href="" id="link" >Регистрация</a>
+				<a href="" id="link" style="margin-left: 20px">Вход</a>
+				<a href="" id="link" style="margin-left: 20px">Messenger</a>
+                <a href="" id="link" style="margin-left: 20px">Facebook Lite</a>
+				<a href="" id="link" style="margin-left: 20px">Watch</a>
+				<a href="" id="link" style="margin-left: 20px">Люди</a>
+				<a href="" id="link" style="margin-left: 20px">Страницы</a>
+				<a href="" id="link" style="margin-left: 20px">Категории страниц</a>
+				<a href="" id="link" style="margin-left: 20px">Места</a>
+				<a href="" id="link" style="margin-left: 20px">Игры</a>
+				<a href="" id="link" style="margin-left: 20px">Места</a>
+				<a href="" id="link" style="margin-left: 20px">Marketplace</a>
+                <br>
+				<a href="" id="link">Facebook Pay</a>
+				<a href="" id="link" style="margin-left: 20px">Группы</a>
+				<a href="" id="link">Вакансии</a>
+				<a href="" id="link" style="margin-left: 20px">Oculus</a>
+				<a href="" id="link" style="margin-left: 20px">Portal</a>
+				<a href="" id="link" style="margin-left: 20px">Instagram</a>
+				<a href="" id="link" style="margin-left: 20px">Местные</a>
+				<a href="" id="link" style="margin-left: 20px">Благотворительные акции</a>
+				<a href="" id="link" style="margin-left: 20px">Услуги</a>
+				<a href="" id="link" style="margin-left: 20px">Центр информации о голосовании</a>
+				<br>
+				<a href="" id="link" >О нас</a>
+				<a href="" id="link" style="margin-left: 20px">Создать рекламу</a>
+				<a href="" id="link" style="margin-left: 20px">Создать страницу</a>
+				<a href="" id="link" style="margin-left: 20px">Разработчикам</a>
+				<a href="" id="link" style="margin-left: 20px">Вакансии</a>
+				<a href="" id="link" style="margin-left: 20px"> Конфиденциальность</a>
+				<a href="" id="link" style="margin-left: 20px">Cookies</a>
+				<a href="" id="link" style="margin-left: 20px">Выбор рекламы</a>
+				<br>
+				<a href="" id="link" >Условия использования</a>
+				<a href="" id="link" style="margin-left: 20px">Справка</a>
+				<br>
+				<br>
+				<br>
+				<span id="rights">Facebook © 2021</span>
+
+			</div>
+		</div>
+    
+    
+
+</body>
+
+</html>
