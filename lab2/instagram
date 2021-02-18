@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Instagram</title>
+        <style>
+            body{
+            margin: -10px;
+            text-align: center;
+            font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+            height: 100%;
+       
+            }
+          
+            #app_img{
+            position: relative;
+            top: 65px;
+            left: 880px;
+            width: 401px;
+            height: 622px;
+            }
+            #registr_box{
+            display: inline-block;
+            width: 402px;
+            height: 630px;
+            position: relative;
+            left: 180px;
+            bottom: 515px;
+            border-style: solid;
+            border-width: 1px;
+            border-color: rgb(0, 0, 0, 0.15)
+            }
+            #login_input{
+            margin-top: 7px;
+            width: 350px;
+            height: 18px;
+            padding-top: 8px;
+            padding-left: 9px;
+            padding-bottom: 7px;
+            background-color: rgb(250,250,250);
+            font-family: inherit;
+            font-weight: 
+            font-size: 12px;
+            border-width: 1px;
+            border-radius: 1px;
+            border-color: rgb(0, 0, 0, 0.15)
+            }
+            form:valid input[type="submit"] {
+            margin-top: 15px;
+            width: 350px;
+            height: 30px;
+            border: none;
+            border-radius: 3px;
+            font-family: inherit;
+            font-size: 14px;
+            font-weight: bold;
+            background-color: #0095f6;
+            color: #fff;
+            }
+            form:invalid input[type="submit"] {
+            margin-top: 15px;
+            width: 350px;
+            height: 30px;
+            border: none;
+            border-radius: 3px;
+            font-family: inherit;
+            font-size: 14px;
+            font-weight: bold;
+            background-color: #b2dffc;
+            color: #fff;
+            }
+            #linebreak{
+            text-align: center;
+            margin-left: 25px;
+            margin-top: 25px;
+            height: 0px;
+            width: 350px;
+            border-bottom: 1px solid #dadde1;
+            }
+            #or{
+            font-family: inherit;
+            color: rgb(0, 0, 0, 0.7);
+            font-size: 16px;
+            font-weight: 600;
+            background-color: white;
+            position: relative;
+            bottom: 20px;
+            width: 25%;
+            left: 150px;
+            bottom: 20px;
+            }
+            #link{
+            cursor: pointer;
+            font-family: inherit;
+            text-decoration:none;
+            }
+            #signup_box{
+            height: 61px;
+            position: relative;
+            top: 15px;
+            border-style: solid;
+            border-width: 1px;
+            border-radius: 3px;
+            border-color: rgb(0, 0, 0, 0.15);
+            }
+            #foot{
+            margin: 0px;
+            height: 151px;
+            width: 1200px;
+            position: relative;
+            bottom: 417px;
+            left: 830px;
+            }
+            #foot_link{
+            cursor: pointer;
+            font-family: inherit;
+            text-decoration:none;
+            color: #8e8e8e;
+            font-size: 12px;
+            margin-right: 15px;
+            }
+             #rights{
+                font-family: inherit;
+                color: #8e8e8e;
+                font-size: 12px;
+                width: 320px;
+                position: relative;
+                bottom: -5px;
+                left: 440px
+             }
+            #z{
+            margin-top: 20px;
+            }
+
+           
+        </style>
+    </head>
+    <body>
+        <div id="app_img">
+            <img src="https://sun9-49.userapi.com/impf/F5ARLGFJK6ZDGNJBY_5GyilbtodmGFBP0S76pw/nIYujCv01M8.jpg?size=518x775&quality=96&proxy=1&sign=47f521677726c825345b3163bb68f0da&type=album">
+            
+        </div>
+
+        <div id="registr_box">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRXqfxd8wdRrsjyiqInnic3kDaRCZP2o09FlA&usqp=CAU" width="220" style="margin-top: 15px">
+            <form>
+                <input type="text" required id="login_input" placeholder="Номер телефона, имя пользователя или адрес">
+                <input type="password" id="login_input" name="password" placeholder="Пароль">
+                <input type="submit" id="submit_button" value="Войти">
+            </form>
+            <div id="linebreak"> </div>
+            <p id="or">или</p>
+            <ul style="list-style-type:none;padding: 0px">
+                <li>
+                    <a href="" id="link" style="color: #385185;font-weight: 600;font-size: 13px;">Войти через Facebook</a>
+                </li>
+                <li style="margin-top: 12px">
+                    <a href="" id="link" style="color: #00376b;font-size: 12px;">Забыли пароль?</a>
+                </li>
+            </ul>
+     
+            
+
+        <div id="signup_box">
+                <p style="font-family: inherit;margin: 20px 15px 15px 15px;font-size: 14px;">
+                    У вас ещё нет аккаунта? 
+                    <a href="" id="link" style="color: #0095f6;font-weight: 500">Зарегистрироваться</a>
+                </p>
+            </div>
+            <p style="margin-top: 40px;font-size: 14px;font-family: inherit;">Установите приложение</p>
+            <div id="z">
+                <a href="https://www.greenqueen.com.hk/wp-content/uploads/2020/02/Apple-App-Store-Icon.png"><img src="assets\apple.png" id="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.greenqueen.com.hk%2Fdownload-green-queen-biz-guide-by-green-queen-media%2Fapple-app-store-icon%2F&psig=AOvVaw3PT0YMKXOHW3fQ-pi0953_&ust=1613757916259000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCPCDqPOC9O4CFQAAAAAdAAAAABAD"></a>
+               
+            </div>\
+        </div>
+        
+
+        <div id="foot">
+            <ul style="list-style-type:none;padding: 0px">
+            <li>
+                <a href="" id="foot_link">Информация</a>
+                <a href="" id="foot_link">Блог</a>
+                <a href="" id="foot_link">Вакансии</a>
+                <a href="" id="foot_link">Помощь</a>
+                <a href="" id="foot_link">API</a>
+                <a href="" id="foot_link">Конфиденциальность</a>
+                <a href="" id="foot_link">условия</a>
+                <a href="" id="foot_link">Популярные аккаунты</a>
+                <a href="" id="foot_link">Хэштеги</a>
+                <a href="" id="foot_link">Места</a>
+            </li>
+            <li>
+                <a href="" id="foot_link">Красота</a>
+                <a href="" id="foot_link">Танцы и выступления</a>
+                <a href="" id="foot_link">Фитнес</a>
+                <a href="" id="foot_link">Еда и напитки</a>
+                <a href="" id="foot_link">Дом и сад</a>
+                <a href="" id="foot_link">Музыка</a>
+                <a href="" id="foot_link">Изобразительное искусство</a>
+            </li>
+            
+                <div id="rights">©Instagram от Facebook, 2021</div>
+            </div>
+        </div>
+    </body>
+</html>
