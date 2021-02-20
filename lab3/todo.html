@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ToDo List app</title>
+    <link rel="stylesheet" type="text/css " href="style.css">
+
+    <style>
+
+    	.mainhead {
+    width: 100%;
+    height: 60px;
+    position: absolute;
+    top: 0;
+    left:0;
+    background: #000000;
+    color: rgb(128,128,128);
+    font-size: 30px;
+    text-align: left;
+    font-family:  sans-serif;
+}
+
+     .main{
+    		width: 100%;
+    		height: 80%;
+    		   background: 900C3F;
+    	}
+
+     .header {
+    position: fixed;
+    top: 4em;
+    left: 7em;
+    font-size: 40px;
+    positio
+    font-family: -apple-system, BlinkMacSystemFont,'Helvetica Neue', sans-serif;
+}
+
+     .container{
+    width: 460px;
+}
+
+     #inputField{
+    width: 600px;
+    height:30px;
+    border: 1px solid grey;
+    font-size: 25px;
+    margin-top: 0px;
+    margin-left: 400px;
+    border-radius: 5px;
+
+}
+     #addToDo{
+	margin-top: 150px;
+    margin-left: 12px;
+    height: 34px;
+    width: 60px;
+    border-radius: 5px;
+    border: 1px solid black;
+    font-size: 15px;
+    background-color: blue;
+    color: white;
+
+}
+
+    </style>
+
+</head>
+
+<body>
+<div class="mainhead">ToDo List </div>
+<div class="main"></div>
+
+<div class="header"> ToDo List:</div>
+<h1 id="text">hello</h1>
+
+<div class="Container">
+       <input id = "inputField" type="text" placeholder="New Task">
+       <button id = "addToDo">Add</button>
+       <div class="to-dos" id = "toDoContainer"></div>
+   </div>
+
+<script type="text/javascript" src="main.js"></script>
+</body>
+</html>
