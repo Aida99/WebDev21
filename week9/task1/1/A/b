@@ -1,0 +1,4 @@
+p = int(input())
+
+print("The next number for the "  +  str ( p ) +  " is "  +  str ( p + 1 ) +  ".")
+print("The previous number for the "  +  str ( p ) +  " is "  +  str ( p - 1 ) +  ".")
